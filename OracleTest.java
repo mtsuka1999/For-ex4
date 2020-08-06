@@ -13,7 +13,7 @@ class OracleTest {
                 t++;
                 break;
               case 1:
-                System.out.println("head");  
+                System.out.println("hed");  
                 h++;
                 break;
           }
