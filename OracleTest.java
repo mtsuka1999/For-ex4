@@ -1,6 +1,13 @@
 
 class OracleTest {
     public static void main(String[] args) {
+         System.out.println("Who are you? ");
+
+    Scanner scan = new Scanner(System.in);
+    System.out.print("<");
+    String str = scan.next();
+    System.out.println("Hello, "+ str +"!");
+        
         int t=0;
         int h=0;
         System.out.println("Tossing a coin...");
